@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GymBean - obchod s fazuľamy</title>
+    <link rel="icon" type="image/jng" href="/images/fazula.jpg"/>
+    <link rel="stylesheet" href="../CSS/page1css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/odsek.css">
+</head>
+<body>
+
+<!-- Jumbotron -->
+<div class="p-3 text-center bg-white border-bottom md">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 d-flex justify-content-center justify-content-md-start mb-3 mb-md-0">
+                <a href="#!" class="ms-md-2">
+                    <img src="/images/fazula.jpg" height="50"/>
+                    <em class="logo">Gym<em class="logo2">Bean</em></em>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <form class="d-flex input-group w-auto my-auto mb-3 mb-md-0">
+                    <input autocomplete="off" type="search" class="form-control rounded" placeholder="Search" />
+                    <span class="input-group-text border-0 d-none d-lg-flex"><i class="fas fa-search"></i></span>
+                </form>
+            </div>
+
+            <div class="col-md-4 d-flex justify-content-center justify-content-md-end align-items-center">
+                <div class="d-flex">
+                    <!-- Cart -->
+                    <a class="text-reset me-3" href="#">
+                        <span><i class="bi bi-cart4"></i></span>
+                    </a>
+
+                    <!-- Notification -->
+                    <div class="dropdown">
+                        <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="page3.html" id="navbarDropdownMenuLink"
+                           role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Prihlásiť</a></li>
+                            <li><a class="dropdown-item" href="#">Registrovať</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Jumbotron-->
+<!-- DropDown menu-->
+<div class="grid-container2">
+    <div class="grid-item2">
+        <div class="dropdown2">
+            <button class="dropbtn">ŠPORTOVÁ VÝŽIVA</button>
+            <div class="dropdown-content">
+                <a href="#">Proteíny</a>
+                <a href="#">Kreatíny</a>
+                <a href="#">Gainery</a>
+                <a href="#">Vitamíny</a>
+                <a href="#">Minerály</a>
+            </div>
+        </div>
+    </div>
+    <div class="grid-item2">
+        <div class="dropdown2">
+            <button class="dropbtn">ZDRAVÉ POTRAVINY</button>
+            <div class="dropdown-content">
+                <a href="#">Fitnes jedlo</a>
+                <a href="#">Cestoviny</a>
+                <a href="#">Snacky</a>
+                <a href="#">Nápoje</a>
+            </div>
+        </div>
+    </div>
+    <div class="grid-item2"><div class="dropdown2">
+        <button class="dropbtn">ŠPORTOVÉ OBLEČENIE</button>
+        <div class="dropdown-content">
+            <a href="#">Pánske</a>
+            <a href="#">Dámske</a>
+        </div>
+    </div></div>
+    <div class="grid-item2">
+        <div class="dropdown2">
+            <button class="dropbtn">PRÍSLUŠENSTVO</button>
+            <div class="dropdown-content">
+                <a href="#">Tašky</a>
+                <a href="#">Pomôcky na cvičenie</a>
+                <a href="#">Pomôcky na doma</a>
+                <a href="#">Ostatné</a>
+            </div>
+        </div>
+    </div>
+    <div class="grid-item2">
+        <div class="dropdown2">
+            <button class="dropbtn"><a class= "blog" href="page2.html">BLOG</a></button>
+        </div>
+    </div>
+</div>
+<!-- carousel-->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/images/ca1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="/images/ca2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="/images/ca3.jpg" class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- carousel-->
+<div class="grid-container1">
+    <div class="grid-item1"><i class="bi bi-bag-heart-fill"> 20M+ <em class="odsek-text">spokojných zákazníkov &nbsp;&nbsp;</em></i></div>
+    <div class="grid-item1"><i class="bi bi-hourglass-split"> <24 hodín <em class="odsek-text">rýchle dodanie &nbsp;&nbsp;</em></i></div>
+    <div class="grid-item1"><i class="bi bi-truck">doprava zadarmo <em class="odsek-text">pri nákupe nad 20e &nbsp;&nbsp;</em></i></div>
+    <div class="grid-item1"><i class="bi bi-bag-fill">10 000+ <em class="odsek-text">produktov </em></i></div>
+</div>
+
+<p class="mininadpis">Objavte overené produkty podľa vášho cieľa. Chcete: </p>
+<!-- cards-->
+<div class="grid-container3">
+    <div class="grid-cards">
+        <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img" src="/images/schudnut.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Schudnúť</h5>
+                    <p class="card-text">Na chudnutie je kategória produktov, ktoré vám zjednodušia vašu cestu za štíhlejšou postavou s nižším percentom telesného tuku.
+                        Nájdete v nej napríklad proteíny, ako je náš Yum Yum Whey.... </p>
+                    <a href="#" class="btn btn-primary">Viac...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-cards">
+        <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img" src="/images/sval.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Budovať svalovú hmotu</h5>
+                    <p class="card-text">Budovanie svalovej hmoty je kategória výživových doplnkov, ktoré vám pomôžu doplniť
+                        kľúčové živiny pre budovanie svalovej hmoty (hypertrofiu)..... </p>
+                    <a href="#" class="btn btn-primary">Viac...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-cards">
+        <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img" src="/images/regen.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Podporiť regeneráciu</h5>
+                    <p class="card-text">Podpora regenerácie je kategória, ktorá obsahuje produkty pre rýchlejšiu regeneráciu a
+                        zotavenie z tréningu. Využijete ich počas tréningu aj po ňom.... </p>
+                    <a href="#" class="btn btn-primary">Viac...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-cards">
+        <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img" src="/images/vykon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Zlepšiť výkon</h5>
+                    <p class="card-text">Zlepšenie športového výkonu je kategória produktov, ktoré vám pomôžu v ceste za
+                        lepšími športovými výsledkami a lepšou fyzickou kondíciou. ... </p>
+                    <a href="#" class="btn btn-primary">Viac...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-cards">
+        <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img" src="/images/jedlo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Zdravšie maškrtiť</h5>
+                    <p class="card-text">Zdravé potraviny je kategória produktov, ktoré sú určené pre zdravú výživu. Tieto potraviny
+                        predstavujú zdroj dôležitých makroživín (bielkoviny, sacharidy, tuky), vitamínov... </p>
+                    <a href="#" class="btn btn-primary">Viac...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-cards">
+        <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img" src="/images/cinka.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Začať cvičiť doma</h5>
+                    <p class="card-text">Pomôcky na cvičenie doma je kategória, v ktorej nájdete všetko, čo
+                        potrebujete, aby ste aj doma dokázali efektívne precvičiť a zregenerovať celé telo.... </p>
+                    <a href="#" class="btn btn-primary">Viac...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-cards">
+        <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img" src="/images/c.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Podporiť imunitu</h5>
+                    <p class="card-text">Na podporu imunity je kategória produktov, ktoré vám
+                        pomôžu doplniť kľúčové látky pre podporu imunity a obranyschopnosťi organizmu.... </p>
+                    <a href="#" class="btn btn-primary">Viac...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-cards">
+        <div class="card" style="width: 20rem;">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img" src="/images/oblecenie.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Športové oblečenie</h5>
+                    <p class="card-text">Športové oblečenie je kategória, v ktorej nájdete kúsky do posilňovne,
+                        na beh, cyklistiku, kolektívne športy, turistiku, jogu, pilates a ďalšie športové aktivity... </p>
+                    <a href="#" class="btn btn-primary">Viac...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-facebook"></i>
+            </a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-google"></i>
+            </a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-instagram"></i>
+            </a>
+        </section>
+        <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-white" href="https://www.fri.uniza.sk/">vaii-semestralka.sk</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+</body>
+</html>
